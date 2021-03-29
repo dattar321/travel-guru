@@ -1,0 +1,49 @@
+.detail{
+    display: flex;
+    padding-left: 80px;
+    color: white;
+    
+}
+.row{
+    color:white;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+.card{
+    padding: 2px;
+    position: fixed;
+    height: 320px;
+    width: 180px;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+}
+.sundarban{
+    background-image: url(../../Image/sundorbon.png);
+}
+.sreemangal{
+    background-image: url(../../Image/Sreemongol.png);
+}
+.cox-bazar{
+    background-image: url(../../Image/Sajek.png);
+}
+h1{
+    color:white
+}
+.card:hover{
+    border: 3px rgb(250, 250, 39) solid;
+}
+.bttn{
+    border-radius: 5px;
+}
+button{
+    height: 35px;
+    width: 100px;
+    background-color: rgb(250, 250, 39);
+    border:none;
+}
+button:hover{
+    background-color: white;
+}
