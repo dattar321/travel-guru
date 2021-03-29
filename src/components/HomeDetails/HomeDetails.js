@@ -29,7 +29,7 @@ const HomeDetails = () => {
             const cardTemp={
                 id:3,
                 name:"Cox-Bazar",
-                detail:`Cox’s Bazar is a town on the southeast coast of Bangladesh. It’s known for its very long, sandy beachfront, stretching from Sea Beach in the north to Kolatoli Beach in the south.`
+                detail:`Cox’s Bazar is a town on the southeast coast of Bangladesh. It’s known for its very long, sandy beachfront Sea Beach.`
             }
             card = cardTemp;
         }
@@ -76,12 +76,13 @@ const HomeDetails = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-4">
-                        <div onClick={()=>handleBook('sundarban')} class="card sundarban " >
+                       <div onClick={()=>handleBook('sundarban')} className="col-md-4" >
+                        <div class="card sundarban" >
                             <div class="card-body d-flex align-items-end">
                                 <h3>Sundarban</h3>
                             </div>
                         </div>
+                            
                     </div>
                 </div>
             </div>

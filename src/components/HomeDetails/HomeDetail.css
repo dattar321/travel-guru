@@ -8,8 +8,6 @@
     color:white;
 }
 .container{
-    display: flex;
-    justify-content: center;
 }
 .card{
     padding: 2px;
